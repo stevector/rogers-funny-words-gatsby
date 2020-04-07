@@ -138,7 +138,7 @@ exports.createPages = ({ actions, graphql }) => {
         })
       })
     })
-    .then(() => {
+  /*  .then(() => {
       return graphql(`
         {
           allWordpressTag(filter: { count: { gt: 0 } }) {
@@ -173,7 +173,7 @@ exports.createPages = ({ actions, graphql }) => {
           },
         })
       })
-    })
+    })  */
     .then(() => {
       return graphql(`
         {
